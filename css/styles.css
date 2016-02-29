@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto+Condensed:400,700);
+body{
+    font-family: 'Roboto Condensed', 'Roboto Slab', Helvetica, serif, sans-serif;
+}
+.bgimage {
+    background-image: url("../images/background.jpeg");
+    background-position: center center;
+    background-size: cover;
+    height: 100px;
+}
+h1 {
+    color: #FFF;
+    text-shadow: 2px 2px #373a3c;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #708090;
+}
+a:hover {
+    text-decoration: none;
+    color: #708090;
+}
+#headshot {
+    height: 40%;
+    width: 40%;
+    max-height: 60%;
+    max-width: 60%;
+    float: left;
+    margin-right: 10px;
+}
+footer {
+    clear: both;
+}
+footer p{
+    padding-top: 10px;
+}
+.navbar {
+    margin-bottom: 5px;
+}
+#wrapper {
+    background-color: #CBC9CC;
+}
+footer {
+    height: 50px;
+    background-color: #373a3c;
+    color: #FFF;
+}
+.list-group {
+    padding-bottom: 10px;
+}
+fieldset {
+    padding-bottom: 10px;
+}
+.card-img-top {
+    height: 90%;
+    width: 90%;
+    padding-top: 20px;
+}
+.btn {
+    background-color: #373a3c;
+    color: #FFF;
+}
+.navbar-brand {
+    float: right;
+}
